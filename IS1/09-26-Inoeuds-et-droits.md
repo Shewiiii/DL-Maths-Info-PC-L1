@@ -13,7 +13,7 @@ Le système maintient une table des inoeuds:
 |2          |              | <- racine /      (7 8, bin) |
 |...        |              |                            [ ]
 |7 8        |              | <- bin                      |
-|10         |              | <- A             (10n, A)  ( )
+|10         |              | <- A              (10, A)  ( )
                               
 ```
 

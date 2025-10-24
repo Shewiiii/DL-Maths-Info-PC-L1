@@ -42,7 +42,7 @@ def interprete_arbre(
 
     prompt_text = (
         "Analyse l'arbre ou l'expression de logique propositionnelle dans l'image. "
-        "Écris l'expression (avec seulement &, |, >>, ~, ()) au format SymPy"
+        "Écris l'expression au format SymPy (sans utiliser ^ (XOR))"
         "Ne donne que l'expression, sans explication ni texte supplémentaire."
         "Exemple: a & (b | c) & (~b | ~c)"
     )

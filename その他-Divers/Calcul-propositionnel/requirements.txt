@@ -1,0 +1,3 @@
+sympy
+google-genai
+python-dotenv

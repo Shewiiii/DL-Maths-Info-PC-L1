@@ -2,12 +2,12 @@
 
 ## CI1
 ### Convertion de base
-- [Notes prof Amphi 4](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-02-amphi04_notes.pdf) $\rightarrow$ Convertion de nombres à virgule
+- [Notes prof Amphi 4](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-02-Amphi4-notes.pdf) $\rightarrow$ Convertion de nombres à virgule
 
 ### Preuves de calculs
-- [Notes prof Amphi 3](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-09-25-amphi03_notes.pdf)
-- [Complément Amphi 3](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-09-25-mini_notes.md)
-- [Notes prof Amphi 4](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-02-amphi04_notes.pdf)
+- [Notes prof Amphi 3](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-09-25-Amphi3-notes.pdf)
+- [Complément Amphi 3](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-09-25-Amphi3-complement.md)
+- [Notes prof Amphi 4](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-02-Amphi4-notes.pdf)
 - [Notes Amphi 5](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-09-Amphi5.md) $\rightarrow$ Critères de divisibilité
 
 

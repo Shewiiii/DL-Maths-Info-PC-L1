@@ -26,8 +26,3 @@
 - [Cours](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/tree/main/Maths-sup-prepa/Cours)
 - [Devoirs sur table](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/tree/main/Maths-sup-prepa/Devoirs%20au%20lyc%C3%A9e)
 - [Devoirs maison](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/tree/main/Maths-sup-prepa/Devoirs%20%C3%A0%20la%20maison)
-
-## TODO
-Revoir Complément Amphi 3: 
-- La somme (ou somme alternée) des termes pour les épreuves peuvent totalement se faire en base 10, ce qui rend le process plus simple
-- Ajouter la méthode pour les nombres de l'archer b-adique truc $(\overline{2}3)_6 = \alpha$ ...

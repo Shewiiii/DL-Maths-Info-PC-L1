@@ -13,6 +13,7 @@
 
 ### Codage en machine, entropie, compression
 - [Notes Amphi 5](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-09-Amphi5.md) $\rightarrow$ Cà2, IEEE754
+- [Complément Amphi 5](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-09-Amphi5-complement.md) $\rightarrow$ IEEE754 à Nombre décimal
 - [Notes Amphi 6](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-16-Amphi6.md)
 
 

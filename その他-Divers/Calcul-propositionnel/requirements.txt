@@ -1,4 +1,0 @@
-sympy
-google-genai
-python-dotenv
-pillow

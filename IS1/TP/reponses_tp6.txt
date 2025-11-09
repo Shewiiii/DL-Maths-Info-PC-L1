@@ -1,0 +1,61 @@
+# Exercice 1
+1. Je ne peux pas écrire dans le terminal.
+2. Le programme cbonsai s'est arrêté (temporairement): 
+je peux à nouveau écrire dans le terminal.
+3. fg a relancé le programme.
+4. fg répond "no such job": ctrl+c a arrêté le cbonsai définitivement.
+
+# Exercice 2
+1. Je vois le bash, ps, xcalc et xclock dans le 1er terminal, 
+mais uniquement bash et ps dans le second.
+2. Tous les processus: ps -x
+Tous les processus rattaché à un terminal quelconque: ps -a
+ps affiche l'identifiant du processus, le temps CPU utilisé et la commande lancée.
+3. xcalc et xclock partagent le même PPID (2020035), TTY (pts/0) et STAT (S).
+UID: user ID
+PPID: parent process ID
+TTY: le terminal associé au processus
+STAT: statut du processus
+
+4. ps -e
+5. ps -q n
+6. C'est 2020035, le PID du bash du premier terminal.
+
+# Exercice 3
+1. kill -l
+2. SIGTERM: Termine l'exécution de xcalc
+SIGKILL: Tue le processus
+SIGINT: Interrompt l'exécution
+SIGSTOP: Suspend son exécution: la calculatrice reste affichée mais ne répond plus.
+Son statut dans ps est T 
+3. En essayant de kill le bash avec SIGINT, rien ne se passe (cela revient à faire ctrl+c ?).
+Il faut utiliser le signal SIGHUP.
+
+4. SIGKILL: La calculatrice répond toujours mais le bash est tué
+SIGINT: Rien ne se passe
+SIGSTOP: Le bash cesse de répondre
+
+5. J'obtient le message d'erreur "Opération non permise". 
+Je peux donc uniquement terminer mes processus.
+
+# Exercice 4
+1. La commande disparait de l'affichage de ps.
+2. Avec nohup, la commande sleep apparait bien dans ps.
+3. Dans mon cas, le PPID passe de 5883 à 1875.
+
+
+# Exercice 5
+1. killall xclock termine bien tous les processus xclock en cours.
+2. killall -SIGHUP bash
+3. ?
+
+# Exercice 6
+1. Dans un nouveau terminal, jobs n'affiche rien mais ps affiche bash et ps.
+Après avoir exécuté xcalc&, jobs affiche xcalc ("Running") et ps affiche xcalc en plus.
+2. Le numéro de job commence à 1.
+jobs -l 
+3. Un seul processus peut être en avant plan.
+4. On peut utiliser ctrl+z pour stopper xcalc, puis exécuter fg xclock.
+5. kill -SIGSTOP 6056
+6. xcalc a été relancé en arrière plan.
+7. Je ne peux plus relancer les processus: ils ont été terminés

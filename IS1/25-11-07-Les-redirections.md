@@ -35,9 +35,9 @@ Ces flots peuvent être **redirigés** vers **d'autres fichiers ordinaires**.
 
 À chaque flot est associé un **descripteur (numéro)**:
 
-- entrée standard : **0**
-- sortie standard : **1** (facultatif le `1`)
-- sortie erreur standard : **2**
+- Entrée standard : **0**
+- Sortie standard : **1** (facultatif le `1`)
+- Sortie erreur standard : **2**
 
 **Ex:**
 
@@ -55,7 +55,7 @@ $bc < calcul  # redirection de l'entrée standard du processus exécutant bc sur
 **Pour éviter l'écrasement:**
 
 ```bash
-$set -o noclobber     # (activation)
+$set -o noclobber
 ```
 
 **Ex:**
@@ -74,7 +74,7 @@ $echo 5*8 >| calcul
 **Pour la désactiver:**
 
 ```bash
-$set +o noclobber     # (désactive)
+$set +o noclobber
 ```
 
 ---
@@ -101,7 +101,7 @@ $cmd1 | cmd2
 **Ex:**
 
 ```bash
-$echo coucou | wc -c     # (évaluer le nombre de caractère)
+$echo coucou | wc -c     # évalue le nombre de caractère de coucou
 7
 ```
 
@@ -127,11 +127,11 @@ $cmd1 < fic | cmd2 | cmd3 > toto
 On peut rediriger la sortie erreur standard vers la sortie standard : `2>&1`
 
 ```bash
-$ls -R 2>&1 | wc -l     # (évaluer le nombre ligne de ls (même erreur))
+$ls -R 2>&1 | wc -l     # évalue le nombre de ligne d'erreur de ls
 ```
 
 ```bash
-$ls -R 2>&1 1> fic | wc -l     # (évalue le nombre de ligne d'erreur de ls)
+$ls -R 2>&1 1> fic | wc -l     # évalue le nombre de ligne d'erreur de ls
 ```
 
 ---
@@ -141,5 +141,5 @@ $ls -R 2>&1 1> fic | wc -l     # (évalue le nombre de ligne d'erreur de ls)
 - **la poubelle** : `/dev/null`
 
 ```bash
-$ls -R 2>&1 1>/dev/null | wc -l  # (évalue le nombre ligne de ls + 1 est mis à la poubelle)
+$ls -R 2>&1 1>/dev/null | wc -l  # évalue le nombre de ligne d'erreur de ls (en jetant la sortie standard)
 ```

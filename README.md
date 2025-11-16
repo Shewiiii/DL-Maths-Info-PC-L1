@@ -16,12 +16,17 @@
 - [Complément Amphi 5](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-09-Amphi5-complement.md) $\rightarrow$ IEEE754 à Nombre décimal
 - [Notes Amphi 6](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-16-Amphi6.md)
 
+### Contrôle d'erreurs
+- [Slides prof amphi 8](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-13-Amphi08-slides.pdf)
+- [Complément/Notes Amphi 9](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-13-Amphi9.md) $\rightarrow$ Polynomes générateurs
 
 ## IS1
 - [I-noeuds et droits](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/IS1/25-09-26-Inoeuds-et-droits.md)
 - [I-noeuds et droits (suite)](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/IS1/25-10-10-Inoeuds-et-droits-2.md)
 - [Interprétation de la ligne de commande](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/IS1/25-10-10-Interpretation-ligne-commande.md)
 - [Processus du système](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/IS1/25-10-24-Des-processus-du-systeme.md)
+- [Les redirections](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/IS1/25-11-07-Les-redirections.md)
+- [La commande grep et cut](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/IS1/25-11-14-Grep-et-cut.md)
 
 ## Maths prépa
 - [Cours](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/tree/main/Maths-sup-prepa/Cours)

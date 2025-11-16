@@ -36,7 +36,7 @@ Quelques caractères spéciaux:
 Un groupe est délimité par des parenthèses `()`. La ième occurrence d'un groupe peut être rappelée par `\i`.
 ex:
 ```bash
-$echo "(..).*([a-z][0-9]).*\2.*\1"
+$echo "(..).*([a-z][0-9]).*\2.*\1" 
 ```
 
 Déspécialisation:
@@ -54,4 +54,12 @@ $grep -E -e "ab" -e "z$" fichier
 ### "Et" avec grep:
 ```bash
 $grep -E "ab" fichier | grep -E "z$"
+```
+
+## La commande cut
+La commande **cut** permet de **sélectionner les colones d'un texte** suivant un délimiteur. Les éléments des colones sont appélés **champs** (fields).
+
+Exemple d'utilisation: récupérer la 3ème colonne d'un fichier CSV.
+```bash
+$cut -d ';' -f 3 > Anais # (sélectionne la 3ème colonne délimité par ; et redirige vers Anais)
 ```

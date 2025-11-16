@@ -124,10 +124,10 @@ $cmd1 < fic | cmd2 | cmd3 > toto
                      → 2                    → 2
 ```
 
-On peut rediriger la sortie erreur standard vers la sortie standard : `2 >&1`
+On peut rediriger la sortie erreur standard vers la sortie standard : `2>&1`
 
 ```bash
-$ls -R 2 >&1 | wc -l     # (évaluer le nombre ligne de ls (même erreur))
+$ls -R 2>&1 | wc -l     # (évaluer le nombre ligne de ls (même erreur))
 ```
 
 ```bash

@@ -111,7 +111,7 @@ $echo coucou | wc -c     # évalue le nombre de caractère de coucou
 $cmd1 | cmd2 | cmd3 | cmd4
 ```
 
-Et on peu mélanger avec des redirections vers des fichiers ordinaires.
+Et on peut mélanger avec des redirections vers des fichiers ordinaires.
 
 ```bash
 $cmd1 < fic | cmd2 | cmd3 > toto

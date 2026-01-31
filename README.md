@@ -1,3 +1,4 @@
+
 # Liste des cours
 
 ## CI1
@@ -10,15 +11,25 @@
 - [Notes prof Amphi 4](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-02-Amphi4-notes.pdf)
 - [Notes Amphi 5](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-09-Amphi5.md) $\rightarrow$ Critères de divisibilité
 
-
 ### Codage en machine, entropie, compression
 - [Notes Amphi 5](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-09-Amphi5.md) $\rightarrow$ Cà2, IEEE754
 - [Complément Amphi 5](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-09-Amphi5-complement.md) $\rightarrow$ IEEE754 à Nombre décimal
 - [Notes Amphi 6](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-10-16-Amphi6.md)
 
+### Principes de fonctionnement des machines binaires
+- [Code de Gray](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-06-Gray.pdf)
+- [Méthode de Kharnaugh](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-06-Karnaugh.pdf)
+
 ### Contrôle d'erreurs
-- [Slides prof amphi 8](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-13-Amphi08-slides.pdf)
+- [Slides prof Amphi 8](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-13-Amphi08-slides.pdf)
 - [Complément/Notes Amphi 9](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-13-Amphi9.md) $\rightarrow$ Polynomes générateurs
+
+### Cryptologie
+- [Notes Amphi 11](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/25-11-27-Amphi11.md)
+- [Slides prof Amphi 8](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/amphi_11_slides-2.pdf) $\rightarrow$ Chiffre de César et Vigenère
+
+### Autre
+- [Slides prof Amphi 12](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/CI1/amphi12_notes.pdf) $\rightarrow$ Implémentation de la somme avec portes logique, numération (somme) d'Avizienis
 
 ## IS1
 - [I-noeuds et droits](https://github.com/Shewiiii/DL-Maths-Info-PC-L1/blob/main/IS1/25-09-26-Inoeuds-et-droits.md)

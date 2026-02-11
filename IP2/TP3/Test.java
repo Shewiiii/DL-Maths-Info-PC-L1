@@ -20,10 +20,10 @@ public class Test {
 
         // Exercice 3
         Salon s = new Salon();
-        s.ajouterUtilisateur("Joe");
+        s.ajouterUtilisateur("Joemama");
         s.ajouterUtilisateur("Jack");
         s.ajouterUtilisateur("Alan");
-        s.ajouterMessage("Joe", "Bonjour à tous !");
+        s.ajouterMessage("Joemama", "Bonjour à tous !");
         s.ajouterMessage("Jack", "Bonjour à toi.");
         s.ajouterMessage("Alan", "Comment allez vous ?");
         s.afficher();
@@ -39,16 +39,16 @@ public class Test {
         for (int i = 0; i < 5; i++) {
             c.ajouterSalon();
             s = c.salons[i];
-            s.ajouterUtilisateur("Joe");
+            s.ajouterUtilisateur("Joemama");
             s.ajouterUtilisateur("Jack");
             s.ajouterUtilisateur("Alan");
-            s.ajouterMessage("Joe", "Bonjour à tous !");
+            s.ajouterMessage("Joemama", "Bonjour à tous !");
             s.ajouterMessage("Jack", "Bonjour à toi.");
             s.ajouterMessage("Alan", "Comment allez vous ?");
-            s.ajouterMessage("Joe", "Très bien et toi ?"); //
+            s.ajouterMessage("Joemama", "Très bien et toi ?"); //
         }
         System.out.println("Nombre de messages envoyé par Jack dans le chat: " + c.nombreMessages("Jack"));
-        System.out.println("Nombre de messages envoyé par Joe dans le chat: " + c.nombreMessages("Joe"));
+        System.out.println("Nombre de messages envoyé par Joemama dans le chat: " + c.nombreMessages("Joemama"));
         System.out.println("Utilisateur le plus bavard: " + c.bavard());
 
     }

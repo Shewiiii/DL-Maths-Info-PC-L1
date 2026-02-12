@@ -1,0 +1,24 @@
+# https://www.irif.fr/~ledent/teaching/ci2/
+
+# Exo 2
+0: move R0, 3 // Carré à calculer (+compteur décroissant)
+1: move R1, 0 // Résultat
+2: jump_le R0, 0, 8
+3: move R2, R0 // Copie valeur pour le mettre au carré,puis l'ajouter à R1
+4: mul R2, R2, R2
+5: add R1, R1, R2
+6: sub R0, R0, 1
+7: jump 2
+8: print("Résultat = " + R1)
+9: halt
+
+
+# Exo 3
+0: move R0, 6 // Idem
+1: move R1, 1 // Résultat
+2: jump_le R0, 1, 6
+3: mul R1, R1, R0
+4: sub R0, R0, 1
+5: jump 2
+6: print("Résultat = " + R1)
+7: halt

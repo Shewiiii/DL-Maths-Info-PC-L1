@@ -1,4 +1,4 @@
-package IP2.TD2;
+package IP2.TD.TD2;
 
 public class Confiture {
     final String fruit;

@@ -1,4 +1,4 @@
-package IP2.TP3;
+package IP2.TP.TP3;
 
 public class Test {
     public static void main(String[] args) {

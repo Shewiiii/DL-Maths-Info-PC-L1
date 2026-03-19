@@ -1,0 +1,53 @@
+0: push 0
+1: call 100
+2: println("0! = " + R0)
+3: push 5
+4: call 100
+5: println("5! = " + R0)
+6: push 10
+7: call 100
+8: println("10! = " + R0)
+9: pop 3
+10: halt
+
+100: push 1
+101: push 1 // i
+102: jump_g [SP-1], [SP-4], 106 // [SP-4]: n (-3 est la ligne de retour)
+103: mul [SP-2], [SP-2], [SP-1]
+104: add [SP-1], [SP-1], 1
+105: jump 102
+106: move R0, [SP-2]
+107: pop 2
+108: ret
+
+# Exo 2
+0: push 144 // a, [SP-4]
+1: push 252 // b, [SP-3]
+2: call 100
+3: pop 2
+4: halt
+
+100: call 200 // Met valeur dans R0
+101: println("PGCD : " + R0)
+102: ret
+
+200: jump_eq [SP-3], 0, 206
+201: move R1, [SP-4]
+202: mod R1, R1, [SP-3]
+203: move [SP-4], [SP-3]
+204: move [SP-3], R1
+205: jump 200
+206: move R0, [SP-4]
+207: ret
+
+# Exo 3
+0: malloc R0, 3
+1: call 100
+2: println("Dans main : tab[0] = " + [R0])
+3: println("Dans main : tab = " + R0)
+4: halt
+
+100: move [R0], 7
+101: malloc R1, 10
+102: println("Dans modify : tab = " + R1)
+103: ret

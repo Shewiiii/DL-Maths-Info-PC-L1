@@ -49,3 +49,4 @@ public class MyStack {
         System.out.printf("Ça a pris %d millisecondes\n", fin - debut);
     }
 }
+    

@@ -1,0 +1,23 @@
+0: push 5
+1: call 100
+2: call 200
+3: pop
+4: halt
+
+100: jump_neq [SP-2], 0, 103
+101: println("Oui")
+102: jump 107
+103: push [SP-2]
+104: sub [SP-1], [SP-3], 1
+105: call 200
+106: pop
+107: ret
+
+200: jump_neq [SP-2], 0, 203
+201: println("Non")
+202: jump 207
+203: push [SP-2]
+204: sub [SP-1], [SP-3], 1
+205: call 100
+206: pop
+207: ret

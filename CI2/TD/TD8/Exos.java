@@ -66,7 +66,7 @@ public class Exos {
             case 2:
                 return 4;
             case 3:
-                return 6;
+                return 6; // Askip c'est 8
             default:
                 return echarpesST(n - 1) + echarpesST(n - 2) + echarpesST(n - 3);
         }
@@ -77,6 +77,6 @@ public class Exos {
             System.out.println(g(i));
         }
         System.out.println(echarpesSF(3, 2));
-        System.out.println(chemins(1, 1));
+        System.out.println(chemins(10, 10));
     }
 }

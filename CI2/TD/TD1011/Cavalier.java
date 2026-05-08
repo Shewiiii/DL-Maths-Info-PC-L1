@@ -7,7 +7,12 @@ public class Cavalier {
     static int n = 5;
 
     public static void afficherParcours(LinkedList<String> parcours) {
-        ///
+        if (parcours.isEmpty()) {
+            return;
+        }
+        String s = parcours.remove();
+        System.out.println(s);
+        afficherParcours(parcours);
     }
 
     public static boolean solutionComplete(boolean[][] acc) {
@@ -28,6 +33,7 @@ public class Cavalier {
         LinkedList<String> parcours = new LinkedList<>();
         parcours.add("Départ: (" + x + ", " + y + ")");
         resoudreCavaliersAux(acc, parcours, x, y);
+        System.out.println("Fin");
     }
 
     public static boolean resoudreCavaliersAux(boolean[][] acc, LinkedList<String> parcours, int x, int y) {
@@ -43,7 +49,7 @@ public class Cavalier {
             if (resoudreCavaliersAux(acc, parcours, posX, posY)) {
                 return true;
             }
-            parcours.remove();
+            parcours.removeLast();
             acc[posX][posY] = false;
         }
         return false;

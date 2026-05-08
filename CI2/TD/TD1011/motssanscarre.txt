@@ -1,0 +1,1 @@
+AB, BA, A, B, ABA, BAB
